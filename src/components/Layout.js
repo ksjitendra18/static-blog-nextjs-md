@@ -1,15 +1,15 @@
-import Navbar from "./Navbar/Navbar"
-
-const Layout = ({children}) => {
+import Navbar from "./Navbar/Navbar";
+import Footer from "./footer/footer";
+const Layout = ({ children }) => {
   return (
     <>
-    <Navbar />
-    
-    <>
-    {children}
-    </>
-    </>
-  )
-}
+      <Navbar />
 
-export default Layout
+      <div className="p-6 md:p-9 md:px-11">{children}</div>
+      <Footer />
+
+    </>
+  );
+};
+
+export default Layout;
