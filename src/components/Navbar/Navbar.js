@@ -19,7 +19,7 @@ const Navbar = () => {
     <header className=" h-[80px] z-10 text-white bg-mainbg  relative md:p-9 p-4">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <h1 className="text-2xl font-headingFont font-bold mr-4 sm:text-3xl">
-          <Link href="/">EverydayCS</Link>
+          <Link href="/">EverythingCS</Link>
         </h1>
 
         <nav className="hidden md:flex md:text-xl ">
@@ -31,7 +31,7 @@ const Navbar = () => {
               <Link href="/blog">Blog</Link>
             </li>
             <li className="p-4">
-            <Link href="/about">About</Link>
+              <Link href="/about">About</Link>
             </li>
           </ul>
 
@@ -51,14 +51,14 @@ const Navbar = () => {
 
       {nav && (
         // <ul className="md:hidden absolute left-0  text-xl bg-mainbg w-full h-[100vh] flex justify-center flex-col align-middle px-8 py-10 ">
-        <ul className={navclasses} >
-          <li className="text-center py-2"  onClick={handleClick}>
+        <ul className={navclasses}>
+          <li className="text-center py-2" onClick={handleClick}>
             <Link href="/">Home</Link>
           </li>
-          <li className="text-center py-2"  onClick={handleClick}>
+          <li className="text-center py-2" onClick={handleClick}>
             <Link href="/blog">Blog</Link>
           </li>
-          <li className="text-center py-2"  onClick={handleClick}>
+          <li className="text-center py-2" onClick={handleClick}>
             <Link href="/about">About</Link>
           </li>
           {/* <div className="flex flex-col items-center my-4">
