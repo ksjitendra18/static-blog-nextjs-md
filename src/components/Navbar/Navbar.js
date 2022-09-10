@@ -23,7 +23,7 @@ const Navbar = () => {
         </h1>
 
         <nav className="hidden md:flex md:text-xl ">
-          <ul className="hidden md:flex md:mr-10 text-xl navbar-list">
+          <ul className="hidden md:flex text-xl navbar-list">
             <li className="p-4">
               <Link href="/">Home</Link>
             </li>
@@ -61,13 +61,6 @@ const Navbar = () => {
           <li className="text-center py-2" onClick={handleClick}>
             <Link href="/about">About</Link>
           </li>
-          {/* <div className="flex flex-col items-center my-4">
-            <div className="bg-transparent px-8  mb-4">
-              <span  onClick={handleClick}>
-                <Link href="/about">About</Link>
-              </span>
-            </div>
-          </div> */}
         </ul>
       )}
     </header>

@@ -23,3 +23,10 @@ ul {
 button {
   border: none;
 }
+
+/* giving height 100vh will ensure footer sticks at the bottom. Footer is taking margin-top auto */
+#__next{ 
+  display:flex; 
+  flex-direction:column; 
+  min-height: 100vh;
+}
