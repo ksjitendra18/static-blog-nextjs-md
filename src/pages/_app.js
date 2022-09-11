@@ -1,10 +1,14 @@
 import "../../styles/globals.css";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
+import {MDXProvider} from '@mdx-js/react'
+
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} /> 
-    </Layout>
+    <MDXProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </MDXProvider>
   );
 }
 
