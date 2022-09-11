@@ -35,13 +35,6 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* <div className="hidden md:flex md:pr-4 items-center">
-            <div className="navbar-cta ">
-              <span>
-                <Link href="/about">About</Link>
-              </span>
-            </div>
-          </div> */}
         </nav>
 
         <div className="md:hidden cursor-pointer" onClick={handleClick}>
