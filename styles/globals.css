@@ -30,3 +30,19 @@ button {
   flex-direction:column; 
   min-height: 100vh;
 }
+
+
+article h2{
+font-weight: bold;
+font-size: 1.7rem;
+margin: 5px 0;
+}
+article h3, h4{
+font-weight: bold;
+font-size: 1.3rem;
+margin: 5px 0;
+}
+
+article p{
+  margin-bottom: 1.3rem;
+}

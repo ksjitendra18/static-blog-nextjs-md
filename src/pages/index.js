@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import FeaturedCard from "../components/featured";
 export default function Home() {
   return (
     <>
@@ -31,6 +32,9 @@ export default function Home() {
                 View all posts
               </button>
             </Link>
+          </div>
+          <div>
+            <FeaturedCard/>
           </div>
         </section>
       </main>
