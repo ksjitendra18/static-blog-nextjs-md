@@ -16,8 +16,10 @@ const Navbar = () => {
       "hidden md:hidden absolute left-0  text-xl bg-mainbg w-full h-[calc(100vh-80px)] flex justify-center flex-col align-middle px-8 py-10 ";
   }
   return (
-    <header className=" h-[80px] z-10 text-white bg-mainbg  relative md:p-9 p-4">
-      <div className="px-2 flex justify-between items-center w-full h-full">
+    // <header className=" h-[80px] z-10 text-white bg-mainbg  relative md:p-9 p-4">
+    <header className=" h-[80px] z-10 text-white bg-mainbg  relative ">
+      {/* <div className="px-2 flex justify-between items-center w-full h-full"> */}
+      <div className="px-4 flex justify-between items-center w-full h-full max-w-[1100px] mx-auto">
         <h1 className="text-2xl font-headingFont font-bold mr-4 sm:text-3xl">
           <Link href="/">EverythingCS</Link>
         </h1>
